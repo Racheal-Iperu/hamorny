@@ -30,6 +30,7 @@ import {AppTimelineDemoComponent} from './pages/app.timelinedemo.component';
 import {AppInvoiceComponent} from './pages/app.invoice.component';
 import {AppHelpComponent} from './pages/app.help.component';
 import {BlocksComponent} from './blocks/blocks/blocks.component';
+import { JSONTrialComponent } from './jsontrial/jsontrial.component';
 
 @NgModule({
     imports: [
@@ -44,6 +45,7 @@ import {BlocksComponent} from './blocks/blocks/blocks.component';
                     {path: 'uikit/input', component: InputDemoComponent},
                     {path: 'uikit/button', component: ButtonDemoComponent},
                     {path: 'uikit/table', component: TableDemoComponent},
+                    {path: 'uikit/Post', component:JSONTrialComponent},//Creating Post route
                     {path: 'uikit/list', component: ListDemoComponent},
                     {path: 'uikit/tree', component: TreeDemoComponent},
                     {path: 'uikit/panel', component: PanelsDemoComponent},

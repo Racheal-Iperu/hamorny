@@ -31,6 +31,7 @@ import {AppInvoiceComponent} from './pages/app.invoice.component';
 import {AppHelpComponent} from './pages/app.help.component';
 import {BlocksComponent} from './blocks/blocks/blocks.component';
 import { JSONTrialComponent } from './jsontrial/jsontrial.component';
+import {FormComponent} from "./form/form.component";
 
 @NgModule({
     imports: [
@@ -46,6 +47,7 @@ import { JSONTrialComponent } from './jsontrial/jsontrial.component';
                     {path: 'uikit/button', component: ButtonDemoComponent},
                     {path: 'uikit/table', component: TableDemoComponent},
                     {path: 'uikit/Post', component:JSONTrialComponent},//Creating Post route
+                    {path: 'uikit/Form', component:FormComponent}, // creating forms route
                     {path: 'uikit/list', component: ListDemoComponent},
                     {path: 'uikit/tree', component: TreeDemoComponent},
                     {path: 'uikit/panel', component: PanelsDemoComponent},

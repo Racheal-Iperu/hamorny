@@ -1,0 +1,42 @@
+
+<div class="grid">
+    <div class="col-12 md:col-6">
+        <div class="card p-fluid">
+            <h5>Registration form</h5>
+            <div class="field">
+                <label htmlFor="name1">Name</label>
+                <input pInputText id="name1" type="text" />
+            </div>
+            <div class="field">
+                <label htmlFor="email1">Email</label>
+                <input pInputText id="email1" type="text" />
+            </div>
+            <div class="field">
+                <label htmlFor="country">Country</label><br>
+                <select id="country">
+                    <option value="uganda">Uganda</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Tanzania">Tanzania</option>
+                    <option value="Rwanda">Rwanda</option>
+                </select>
+            </div>
+            <div class="field">
+                <label htmlFor="gender">Gender:</label>
+                <input id="female" type="radio" />
+                <label htmlFor="female">Female</label>
+
+                <input id="male" type="radio" />
+                <label htmlFor="male">Male</label>
+            </div>
+            <div class="field">
+                <label htmlFor="hobbies"> Hobbies<i>(optional)</i></label>
+                <label><input  id="sports" type="checkbox" value="sports" /> Sports</label>
+                <label><input  id="reading" type="checkbox" value="reading" />Reading</label>
+                <label><input  id="novels" type="checkbox" value="novels" />Novels</label>
+                <label><input  id="playing" type="checkbox" value="playing" />Playing</label>
+            </div>
+            <div><button pButton pRipple label="Submit" class="mr-2 mb-2"></button></div>
+
+        </div>
+    </div>
+</div>

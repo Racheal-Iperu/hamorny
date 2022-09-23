@@ -143,6 +143,7 @@ import dayGridPlugin from '@fullcalendar/daygrid';
 import timeGridPlugin from '@fullcalendar/timegrid';
 import interactionPlugin from '@fullcalendar/interaction';
 import { JSONTrialComponent } from './jsontrial/jsontrial.component';
+import { FormComponent } from './form/form.component';
 
 FullCalendarModule.registerPlugins([
     dayGridPlugin,
@@ -281,7 +282,8 @@ FullCalendarModule.registerPlugins([
         AppAccessdeniedComponent,
         BlocksComponent,
         BlockViewer,
-        JSONTrialComponent
+        JSONTrialComponent,
+        FormComponent
     ],
     providers: [
         {provide: LocationStrategy, useClass: HashLocationStrategy},

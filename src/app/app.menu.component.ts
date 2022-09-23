@@ -28,6 +28,7 @@ export class AppMenuComponent implements OnInit {
                     {label: 'Button', icon: 'pi pi-fw pi-mobile', routerLink: ['/uikit/button'], class: 'rotated-icon'},
                     {label: 'Table', icon: 'pi pi-fw pi-table', routerLink: ['/uikit/table']},
                     {label: 'Post', icon: 'pi pi-fw pi-comments', routerLink: ['uikit/Post']},      //Creating for Post component
+                    {label: 'myForm', icon: 'pi pi-fw pi-book', routerLink: ['uikit/Form']},
                     {label: 'List', icon: 'pi pi-fw pi-list', routerLink: ['/uikit/list']},
                     {label: 'Tree', icon: 'pi pi-fw pi-share-alt', routerLink: ['/uikit/tree']},
                     {label: 'Panel', icon: 'pi pi-fw pi-tablet', routerLink: ['/uikit/panel']},
